@@ -6,36 +6,28 @@
     <link rel="stylesheet" href="menu.css" />
   </head>
   <body>
-
-    
-    <div id="root"></div>
-
-    
+   
     <!--página de abertura -->
 
-
-   <!--menu principal -->
+    <!--menu principal -->
     <div id="root">
       <header>
-         <nav class="menu-superior">
-            <ul class="menu-superior-paginas">
-              <li><a href="#">Pokémon</a></li>
-              <li><a href="#">O Jogo</a></li>
-            </ul>
+        <nav class="menu-superior">
+          <ul class="menu-superior-paginas">
+            <li><a href="#">Pokémon</a></li>
+            <li><a href="#">O Jogo</a></li>
+          </ul>
         </nav>
       </header>
 
-     
-
       <main class="cards">
-                 
-      <!--menu lateral -->
-      <section class = "cards-menu-lateral">
-        <img class = "cards-menu-lateral-logo" src="img/logo-pokedex-final.png" alt="Logo Pokédex Go"> 
-            <div class = "cards-menu-lateral-filtro">
-              <li>151 pokémons</li>
+        <!--menu lateral -->
+        <section class = "cards-menu-lateral">
+          <img class = "cards-menu-lateral-logo" src="img/logo-pokedex-final.png" alt="Logo Pokédex Go" width="300px"> 
+          <div class = "cards-menu-lateral-filtro">
+            <li>151 pokémons</li>
               <input id = "placeholder-texto" type="text" class = "buscar-pokemon" placeholder="Pesquise seu pokémon">
-              <li>Tipo</li>
+            <li>Tipo</li>
               <select name = "tipo">
                 <option value disable selected>Selecione</option>
                 <option value = "water">Water</option>
@@ -55,30 +47,33 @@
                 <option value = "flying">Flying</option>
               </select> 
 
-              <li>Região</li>
+            <li>Região</li>
               <select name = "Região">
                 <option value disable selected>Selecione</option>
                 <option value = "water">Kanto</option>
                 <option value = "bug">Johto</option>
               </select>
 
-              <li>Evolução</li>
+            <li>Evolução</li>
               <select name = "Região">
                 <option value disable selected>Selecione</option>
               </select>
-                      
-          </section>
+          </div>
+        </section>
+        <section>    
           <div class = cards-texto-central> 
             <p id="texto-menu"> Aqui, você encontra todos os 151 Pokémons da região de Kanto. 
             Use o menu da lateral esquerda para filtrar de acordo com as suas necessidades.</p>
           </div>
-                 
-          <section class = "cards-pokemons" id ="inserirCards">
+        </section>      
+        <section class = "cards-pokemons" id ="inserirCards">
                     
-        </main>
+      </main>
         
-        <button onclick="topFunction()" id="myBtn" title="Subir para o topo">Topo</button>
-
+      <button onclick="topFuncao()" id="myBtn" title="Subir para o topo">Topo</button>
+    
+      <footer></footer>
+    </div>      
     <script src="main.js" type="module"></script>
   </body>
 </html>

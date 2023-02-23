@@ -1,6 +1,6 @@
-import { example } from './data.js';
 // import data from './data/lol/lol.js';
 import data from './data/pokemon/pokemon.js';
+
 // import data from './data/rickandmorty/rickandmorty.js';
 
 
@@ -23,22 +23,23 @@ function mostrarPokemon(data) {
 }
 mostrarPokemon(pokemons)
 
-// Get the button:
-const mybutton = document.getElementById("myBtn");
+// Pegar o botão
+const meuBotao = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+// Quando usuário desce 20px do topo do documento, mostraro botão
+window.onscroll = function() {scrollFuncao()};
 
-function scrollFunction() {
+function scrollFuncao() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    meuBotao.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    meuBotao.style.display = "none";
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// Quando o usuário clica no botao, rola para o topo do documento
+
+function topFuncao() {
+  document.body.scrollTop = 0; // Safari
+  document.documentElement.scrollTop = 0; // Chrome, Firefox, IE e Opera
 }
