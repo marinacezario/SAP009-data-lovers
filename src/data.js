@@ -34,7 +34,8 @@ export const ordemCompletaNumero = (pokemon) => {
   })
   return ordenarNum;
 };
-/* 
+/*       <footer> Site desenvolvido por Giselle Schwab & Marina Cezário</footer>
+    </main>
   export const ordenarNumDecresc = pokemons.sort((a, b) =>{
     b.num - a.num;
     return ordenarNumDecresc;
