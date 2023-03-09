@@ -119,10 +119,10 @@ COLOCAR LINK
 
 ## 7. Desenvolvedoras 👩‍💻
 
-Giselle Schwab Silva [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/giselle-schwab-silva-58930610a/)
+Giselle Schwab Silva [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/giselle-schwab-silva-58930610a/)
 &nbsp;
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/giselleschwab)
+[![GitHub](https://i.stack.imgur.com/tskMh.png)GitHub](https://github.com/giselleschwab)
 
-Marina Cezário Guimarães Pereira [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/marina-cezario/)
+Marina Cezário Guimarães Pereira [![Linkedin](https://i.stack.imgur.com/gVE0j.png)](https://www.linkedin.com/in/marina-cezario/)
 &nbsp;
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/marinacezario)
+[![GitHub](https://i.stack.imgur.com/tskMh.png)GitHub](https://github.com/marinacezario)
