@@ -82,7 +82,9 @@ O usuário recebe uma breve explicação do jogo e é convidado a entrar no site
 
 ### Página principal
 
-![*Aqui a mágica acontece...*](src/img/magic.gif)
+Aqui, a mágica acontece... 
+
+<p align="center"><img src="src/img/magic.gif" width="200px" height="200px"></p>
 
 Os cards dos Pokémons são mostrados em tela e com a estilização flip do CSS, as informações como candies, altura, peso, resistências e fraquezas sobre aquele Pokémon são mostradas no verso.
 
