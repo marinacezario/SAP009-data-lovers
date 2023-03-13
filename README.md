@@ -117,7 +117,7 @@ Já a página de abertura apresentou leve desconfiguração na responsividade, c
 
 ## 6. Deploy 🖥️
 
-COLOCAR LINK
+https://marinacezario.github.io/SAP009-data-lovers/
 
 ## 7. Desenvolvedoras 👩‍💻
 
